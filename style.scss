@@ -1,3 +1,10 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 微軟正黑體;
+}
+
 nav {
     background: rgba(0, 0, 0, 0.3);
     height: 100px;
@@ -28,4 +35,18 @@ section {
     &:nth-of-type(even) {
         background: pink;
     }
+
 }
+
+#arrow{
+    background-image: url();
+    width: 30px;
+    height: 30px;
+    position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 2;
+      cursor: pointer;
+    }
+    
+/*# sourceMappingURL=style.css.map */
